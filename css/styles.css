@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3A2F2F !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.banner-desktop {
+  background-image: url('/assets/BannerDesktop.png'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 608px;
+}
+
+.banner-responsive {
+  background-image: url('/assets/BannerResponsive.png'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 608px;
+}
+
+.list-group-item{
+  background-color: #3A2F2F !important;
+  color: white;
+  border-color: white !important;
+  font-size: 12px;
+}
+
+#map {
+  position: relative !important;
+  overflow: visible !important;
+  width: 1450px;
+  height: 200px !important;
+  margin-top: 120px;
+}
+
+.map {
+  height: 20;
+}
+
+.subscriptionText {
+  padding-left: 12rem !important;
+}
+
+.card-color {
+  background-color: #352e2e !important;
+}
+
+.card-color-responsive {
+  background-color: #4e4e4e !important;
+}
+
+.container-color {
+  background-color: #252020 !important;
+}
